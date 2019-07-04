@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>MusicPlayer</display-name>
+  <context-param>
+    <param-name>driverClassName</param-name>
+    <param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
+  </context-param>
+  <context-param>
+    <param-name>url</param-name>
+    <param-value>jdbc:sqlserver://localhost:1433;DatabaseName=XSN</param-value>
+  </context-param>
+  <context-param>
+    <param-name>username</param-name>
+    <param-value>sa</param-value>
+  </context-param>
+  <context-param>
+    <param-name>password</param-name>
+    <param-value>180339</param-value>
+  </context-param>
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>MusicPlayerDao</servlet-name>
+    <servlet-class>Dao.MusicPlayerDao</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MusicPlayerDao</servlet-name>
+    <url-pattern>/Dao/MusicPlayerDao</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>InitServlet</servlet-name>
+    <servlet-class>Servlet.InitServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InitServlet</servlet-name>
+    <url-pattern>/Servlet/InitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>Servlet.LoginServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/Servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>MusicListServlet</servlet-name>
+    <servlet-class>Servlet.MusicListServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MusicListServlet</servlet-name>
+    <url-pattern>/Servlet/MusicListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>Servlet.RegisterServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/Servlet/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>UpLoadServlet</servlet-name>
+    <servlet-class>Servlet.UpLoadServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpLoadServlet</servlet-name>
+    <url-pattern>/Servlet/UpLoadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>SaveServlet</servlet-name>
+    <servlet-class>Servlet.SaveServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveServlet</servlet-name>
+    <url-pattern>/Servlet/SaveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>SearchMusicServlet</servlet-name>
+    <servlet-class>Servlet.SearchMusicServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SearchMusicServlet</servlet-name>
+    <url-pattern>/Servlet/SearchMusicServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>CommentServlet</servlet-name>
+    <servlet-class>Servlet.CommentServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CommentServlet</servlet-name>
+    <url-pattern>/Servlet/CommentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>ShowLrcServlet</servlet-name>
+    <servlet-class>Servlet.ShowLrcServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowLrcServlet</servlet-name>
+    <url-pattern>/Servlet/ShowLrcServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>SaveMusicListServlet</servlet-name>
+    <servlet-class>Servlet.SaveMusicListServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveMusicListServlet</servlet-name>
+    <url-pattern>/Servlet/SaveMusicListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>DeleteFileServlet</servlet-name>
+    <servlet-class>Servlet.DeleteFileServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteFileServlet</servlet-name>
+    <url-pattern>/Servlet/DeleteFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>Music</servlet-name>
+    <servlet-class>VO.Music</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Music</servlet-name>
+    <url-pattern>/VO/Music</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>User</servlet-name>
+    <servlet-class>VO.User</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>User</servlet-name>
+    <url-pattern>/VO/User</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <filter-name>EncodingFilter</filter-name>
+    <filter-class>Filter.EncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>EncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+</web-app>
