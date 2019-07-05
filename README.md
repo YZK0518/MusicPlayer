@@ -16,3 +16,5 @@ JSP、JavaScript、Servlet、html、css、Ajax（bootstrap、jQuery涉及较少�
 数据库： 通过Microsoft SQL Server进行数据管理，存储用户信息、相关文件（音乐文件、歌词文件等）的路径以及评论内容。
 
 ![image](https://github.com/YZK0518/MusicPlayer/blob/master/MavenImages/%E6%92%AD%E6%94%BE%E5%88%97%E8%A1%A8.PNG)
+![image](https://github.com/YZK0518/MusicPlayer/blob/master/MavenImages/%E6%B3%A8%E5%86%8C%E7%95%8C%E9%9D%A2.PNG)
+![image](https://github.com/YZK0518/MusicPlayer/blob/master/MavenImages/%E8%AF%84%E8%AE%BA.PNG)
